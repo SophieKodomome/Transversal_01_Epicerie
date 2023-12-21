@@ -1,0 +1,5 @@
+
+for(int a=0; a<cat.length; a++){
+    p.insertProduit(conn,pdt,price,d,t,cat[a]);
+}
+    response.sendRedirect("admin.jsp");

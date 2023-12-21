@@ -1,0 +1,99 @@
+.gridBox {
+    display: inline-grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0;
+    margin-right: 0.75rem;
+
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #2980b9;
+  }
+  
+.gridBox label {
+    text-align: left;
+    margin: 0;
+}
+
+.logo {
+    width: 4em;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    /* Blue background color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    border-radius: 5px;
+    /* Rounded borders */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.maincontent {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.gridBox input {
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: #ffffff;
+    height: 30px;
+    left: 10px;
+    bottom: 10px;
+    font-family: arial;
+    color: #355c7d;
+}
+
+.gridBox select {
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: #ffffff;
+    height: 30px;
+    left: 10px;
+    bottom: 10px;
+    font-family: arial;
+    color: #355c7d;
+}
+
+.gridBox label{
+    font-weight: 500;
+}
+
+body {
+    background: linear-gradient(to right, #3498db, #ffffff);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
